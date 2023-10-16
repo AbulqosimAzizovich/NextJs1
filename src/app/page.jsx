@@ -195,7 +195,7 @@ const page = () => {
               <p>
                 — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
                 Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+                sarguzasht kabi asosiy tushunchalar haqida toxtalamiz.
               </p>
             </div>
 
@@ -205,7 +205,7 @@ const page = () => {
               <p>
                 — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
                 Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+                sarguzasht kabi asosiy tushunchalar haqida toxtalamiz.
               </p>
             </div>
 
@@ -215,7 +215,7 @@ const page = () => {
               <p>
                 — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
                 Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+                sarguzasht kabi asosiy tushunchalar haqida toxtalamiz.
               </p>
             </div>
 
@@ -225,7 +225,7 @@ const page = () => {
               <p>
                 — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
                 Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+                sarguzasht kabi asosiy tushunchalar haqida toxtalamiz.
               </p>
             </div>
 
@@ -235,7 +235,7 @@ const page = () => {
               <p>
                 — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
                 Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+                sarguzasht kabi asosiy tushunchalar haqida toxtalamiz.
               </p>
             </div>
 
@@ -245,7 +245,7 @@ const page = () => {
               <p>
                 — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
                 Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+                sarguzasht kabi asosiy tushunchalar haqida toxtalamiz.
               </p>
             </div>
 
@@ -255,7 +255,7 @@ const page = () => {
               <p>
                 — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
                 Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+                sarguzasht kabi asosiy tushunchalar haqida toxtalamiz.
               </p>
             </div>
 
@@ -265,7 +265,7 @@ const page = () => {
               <p>
                 — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
                 Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+                sarguzasht kabi asosiy tushunchalar haqida toxtalamiz.
               </p>
             </div>
 
