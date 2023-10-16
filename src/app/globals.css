@@ -285,7 +285,8 @@ footer {
 
 .footer__wrapper h1 {
   color: #fff;
-  font-family: Product Sans;
+  font-family: "Roboto", sans-serif;
+
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
@@ -296,7 +297,8 @@ footer {
 
 .footer__wrapper h1 span {
   color: #00e689;
-  font-family: Product Sans;
+  font-family: "Roboto", sans-serif;
+
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
@@ -305,7 +307,8 @@ footer {
 
 .footer__wrapper p {
   color: #fff;
-  font-family: Product Sans;
+  font-family: "Roboto", sans-serif;
+
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -315,7 +318,8 @@ footer {
 
 .footer__wrapper h3 {
   color: #faa40c;
-  font-family: Product Sans;
+  font-family: "Roboto", sans-serif;
+
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
