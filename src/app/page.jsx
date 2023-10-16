@@ -186,10 +186,10 @@ const page = () => {
         </div>
       </section>
 
-      <div className="grid">
+      <section className="grid1">
         <div className="container mx-auto">
           <div className="grid__wrapper angry-grid">
-            <div id="item-1 grid__">
+            <div className="item-0 grid__">
               <h2>— 01 dars</h2>
               <h1>Storytelling nima?</h1>
               <p>
@@ -199,7 +199,27 @@ const page = () => {
               </p>
             </div>
 
-            <div id="item-2 grid__">
+            <div className="item-1 grid__">
+              <h2>— 02 dars</h2>
+              <h1>Storytelling nima?</h1>
+              <p>
+                — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
+                Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
+                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+              </p>
+            </div>
+
+            <div className="item-2 grid__">
+              <h2>— 03 dars</h2>
+              <h1>Storytelling nima?</h1>
+              <p>
+                — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
+                Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
+                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+              </p>
+            </div>
+
+            <div className="item-3 grid__">
               <h2>— 01 dars</h2>
               <h1>Storytelling nima?</h1>
               <p>
@@ -209,7 +229,7 @@ const page = () => {
               </p>
             </div>
 
-            <div id="item-3 grid__">
+            <div className="item-4 grid__">
               <h2>— 01 dars</h2>
               <h1>Storytelling nima?</h1>
               <p>
@@ -219,7 +239,7 @@ const page = () => {
               </p>
             </div>
 
-            <div id="item-4 grid__">
+            <div className="item-5 grid__">
               <h2>— 01 dars</h2>
               <h1>Storytelling nima?</h1>
               <p>
@@ -229,7 +249,7 @@ const page = () => {
               </p>
             </div>
 
-            <div id="item-5 grid__">
+            <div className="item-6 grid__">
               <h2>— 01 dars</h2>
               <h1>Storytelling nima?</h1>
               <p>
@@ -239,7 +259,7 @@ const page = () => {
               </p>
             </div>
 
-            <div id="item-6 grid__">
+            <div className="item-7 grid__">
               <h2>— 01 dars</h2>
               <h1>Storytelling nima?</h1>
               <p>
@@ -249,28 +269,78 @@ const page = () => {
               </p>
             </div>
 
-            <div id="item-7 grid__">
-              <h2>— 01 dars</h2>
-              <h1>Storytelling nima?</h1>
-              <p>
-                — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
-                Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
-              </p>
-            </div>
+            <div className="item-8 grid__">
+              <button>
+                <span>Guruhga qo’shilish</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="15"
+                  viewBox="0 0 19 15"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_12_26)">
+                    <path
+                      d="M3.95825 7.5H15.0416"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10.2917 11.25L15.0417 7.5"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10.2917 3.75L15.0417 7.5"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_12_26">
+                      <rect width="19" height="15" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
 
-            <div id="item-8 grid__">
-              <h2>— 01 dars</h2>
-              <h1>Storytelling nima?</h1>
               <p>
-                — Ushbu darsda storytelling nima ekanligi haqida gaplashamiz.
-                Mavzuga umumiy kirish qilamiz. Ritorika, qahramon, sayohat,
-                sarguzasht kabi asosiy tushunchalar haqida to'xtalamiz.
+                Ushbu tugmani bosish orqali kursning Telegramdagi saralash
+                guruhiga a'zo bo'lasiz →
               </p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <footer>
+        <div className="container mx-auto">
+          <div className="footer__wrapper">
+            <h1>
+              O’quvchilarimizning <span>kurs haqidagi fikrlari</span>
+            </h1>
+            <p>
+              Abdukarim Mirzaevning 1-halqa tinglovchilaridan biri bo`lish
+              imkonini bergan Robbimga hamdlar bo'lsin! Mening nazarimda bu
+              bilimlar hozirgi kunda juda muhim.
+            </p>
+
+            <p>
+              Darsda o'tilgan mavzulardan foydalanib bir sifatli video, audio,
+              tekst, va hkz tayyorlasa tinglovchi va ko'ruvchilarga yaxshi
+              mahsulot yetib borsa, menimcha bizning ustoz niyatlariga yetgan
+              bo’lardilar deb o'ylayman.
+            </p>
+            <h3>Baxrom Abduqayyum</h3>
+          </div>
+        </div>
+      </footer>
     </>
   );
 };

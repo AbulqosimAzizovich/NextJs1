@@ -121,87 +121,88 @@ body {
   line-height: normal;
 }
 
-.grid .angry-grid {
+.grid__wrapper {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.grid1 .angry-grid {
   display: grid;
 
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
-  gap: 0px;
+  gap: 20px;
   height: 100%;
 }
 
-.grid #item-0 {
-  background-color: #dc5ccb;
+.grid1 .item-0 {
   grid-row-start: 1;
   grid-column-start: 1;
 
   grid-row-end: 3;
   grid-column-end: 4;
 }
-.grid #item-1 {
-  background-color: #5e5cad;
+.grid1 .item-1 {
   grid-row-start: 1;
   grid-column-start: 4;
 
   grid-row-end: 4;
   grid-column-end: 7;
 }
-.grid #item-2 {
-  background-color: #9adc97;
+.grid1 .item-2 {
   grid-row-start: 3;
   grid-column-start: 1;
 
   grid-row-end: 5;
   grid-column-end: 4;
 }
-.grid #item-3 {
-  background-color: #bdbbac;
+.grid1 .item-3 {
   grid-row-start: 4;
   grid-column-start: 4;
 
   grid-row-end: 6;
   grid-column-end: 7;
 }
-.grid #item-4 {
-  background-color: #996cea;
+.grid1 .item-4 {
   grid-row-start: 5;
   grid-column-start: 1;
 
   grid-row-end: 7;
   grid-column-end: 4;
 }
-.grid #item-5 {
-  background-color: #755657;
+.grid1 .item-5 {
   grid-row-start: 6;
   grid-column-start: 4;
 
   grid-row-end: 8;
   grid-column-end: 7;
 }
-.grid #item-6 {
-  background-color: #d78595;
+.grid1 .item-6 {
   grid-row-start: 7;
   grid-column-start: 1;
 
   grid-row-end: 9;
   grid-column-end: 4;
 }
-.grid #item-7 {
-  background-color: #bc959a;
+.grid1 .item-7 {
   grid-row-start: 8;
   grid-column-start: 4;
 
   grid-row-end: 10;
   grid-column-end: 7;
 }
-.grid #item-8 {
-  background-color: #79cfb7;
+.grid1 .item-8 {
   grid-row-start: 9;
   grid-column-start: 1;
 
   grid-row-end: 10;
   grid-column-end: 4;
+}
+
+.grid__ {
+  padding: 40px;
+  border: 2px solid rgba(250, 164, 12, 0.5);
 }
 
 .grid__ h2 {
@@ -222,11 +223,101 @@ body {
   line-height: normal;
 }
 
-.grid__ p{
-    color: #FFF;
-font-family: "Roboto", sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
+.grid__ p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.item-8 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  border: none;
+}
+
+.item-8 p {
+  width: 50%;
+
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.item-8 button {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 14px 25px;
+  background: #faa40c;
+}
+
+.item-8 button span {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+footer {
+  padding: 80px 0;
+  background: url("../..//public/Gradient1.png"),
+    lightgray 0px 0px / 100% 100% no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__wrapper {
+  width: 100%;
+  padding: 0 150px;
+  margin: 0 auto;
+}
+
+.footer__wrapper h1 {
+  color: #fff;
+  font-family: Product Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer__wrapper h1 span {
+  color: #00e689;
+  font-family: Product Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer__wrapper p {
+  color: #fff;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  margin: 20px auto;
+}
+
+.footer__wrapper h3 {
+  color: #faa40c;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
 }
