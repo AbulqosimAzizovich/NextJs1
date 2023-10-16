@@ -312,7 +312,7 @@ const page = () => {
 
               <p>
                 Ushbu tugmani bosish orqali kursning Telegramdagi saralash
-                guruhiga a'zo bo'lasiz →
+                guruhiga azo bolasiz →
               </p>
             </div>
           </div>
@@ -327,15 +327,15 @@ const page = () => {
             </h1>
             <p>
               Abdukarim Mirzaevning 1-halqa tinglovchilaridan biri bo`lish
-              imkonini bergan Robbimga hamdlar bo'lsin! Mening nazarimda bu
+              imkonini bergan Robbimga hamdlar bolsin! Mening nazarimda bu
               bilimlar hozirgi kunda juda muhim.
             </p>
 
             <p>
-              Darsda o'tilgan mavzulardan foydalanib bir sifatli video, audio,
-              tekst, va hkz tayyorlasa tinglovchi va ko'ruvchilarga yaxshi
+              Darsda otilgan mavzulardan foydalanib bir sifatli video, audio,
+              tekst, va hkz tayyorlasa tinglovchi va koruvchilarga yaxshi
               mahsulot yetib borsa, menimcha bizning ustoz niyatlariga yetgan
-              bo’lardilar deb o'ylayman.
+              bo’lardilar deb oylayman.
             </p>
             <h3>Baxrom Abduqayyum</h3>
           </div>
