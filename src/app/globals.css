@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.container {
+  max-width: 1040px;
+  padding: 0 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background: url("../../public/rasmlar/Noise.png"),
+    rgb(8, 8, 8) 0% 0% / 100px 100px no-repeat;
+}
+
+.about {
+  background-image: url("../../public/rasmlar/portrait.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
+.header__wrapper h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__wrapper h1 span {
+  color: #00e689;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header__wrapper p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  width: 45%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header__wrapper button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 14px 25px;
+  background: #faa40c;
+}
+
+.header__wrapper button span {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.course {
+  opacity: 0.8;
+  background: url("../../public/Gradient.png"),
+    lightgray 0px -256.793px / 100% 100% no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.course__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course__wrapper .c__card {
+  position: relative;
+}
+
+.c__card--title {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.c__card--title p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.c__card--title span {
+  color: #00e689;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.grid .angry-grid {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  gap: 0px;
+  height: 100%;
+}
+
+.grid #item-0 {
+  background-color: #dc5ccb;
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 4;
+}
+.grid #item-1 {
+  background-color: #5e5cad;
+  grid-row-start: 1;
+  grid-column-start: 4;
+
+  grid-row-end: 4;
+  grid-column-end: 7;
+}
+.grid #item-2 {
+  background-color: #9adc97;
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 5;
+  grid-column-end: 4;
+}
+.grid #item-3 {
+  background-color: #bdbbac;
+  grid-row-start: 4;
+  grid-column-start: 4;
+
+  grid-row-end: 6;
+  grid-column-end: 7;
+}
+.grid #item-4 {
+  background-color: #996cea;
+  grid-row-start: 5;
+  grid-column-start: 1;
+
+  grid-row-end: 7;
+  grid-column-end: 4;
+}
+.grid #item-5 {
+  background-color: #755657;
+  grid-row-start: 6;
+  grid-column-start: 4;
+
+  grid-row-end: 8;
+  grid-column-end: 7;
+}
+.grid #item-6 {
+  background-color: #d78595;
+  grid-row-start: 7;
+  grid-column-start: 1;
+
+  grid-row-end: 9;
+  grid-column-end: 4;
+}
+.grid #item-7 {
+  background-color: #bc959a;
+  grid-row-start: 8;
+  grid-column-start: 4;
+
+  grid-row-end: 10;
+  grid-column-end: 7;
+}
+.grid #item-8 {
+  background-color: #79cfb7;
+  grid-row-start: 9;
+  grid-column-start: 1;
+
+  grid-row-end: 10;
+  grid-column-end: 4;
+}
+
+.grid__ h2 {
+  color: #00e689;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.grid__ h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.grid__ p{
+    color: #FFF;
+font-family: "Roboto", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
